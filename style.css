@@ -1,32 +1,15 @@
-.question-form {
-  max-width: 480px;
-}
-
-.question-form textarea {
+.question-form input[type="email"]{
   width: 100%;
   background: transparent;
   border: 1px solid #374151;
   color: #e5e7eb;
   padding: 12px;
   font-size: 0.95rem;
-  resize: none;
   margin-bottom: 12px;
 }
 
-.question-form textarea::placeholder {
+.fineprint{
+  margin-top: 12px;
+  font-size: 0.8rem;
   color: #6b7280;
-}
-
-.question-form button {
-  background: transparent;
-  border: 1px solid #4b5563;
-  color: #9ca3af;
-  padding: 8px 16px;
-  font-size: 0.85rem;
-  cursor: pointer;
-}
-
-.question-form button:hover {
-  border-color: #9ca3af;
-  color: #e5e7eb;
 }
