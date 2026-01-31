@@ -1,13 +1,19 @@
 <form class="question-form"
-      action="mailto:k.weingaertner@gmx.at"
-      method="post"
-      enctype="text/plain">
+      action="https://formspree.io/f/xxxxxxxx"
+      method="POST">
 
   <textarea name="question"
             placeholder="Ask one question."
             rows="3"
             required></textarea>
 
+  <!-- optional, aber sinnvoll -->
+  <input type="email" name="email" placeholder="k.weingaertner@gmx.at)" />
+
   <button type="submit">Ask</button>
 
+  <p class="fineprint">
+    Sent securely over HTTPS. One question is enough.
+  </p>
 </form>
+
